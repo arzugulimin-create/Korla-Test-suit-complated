@@ -1,0 +1,15 @@
+{
+  "_comment": "Static checkout/billing + sandbox form payloads for the Korla QA suite. NEVER real payment data. Dynamic values (email/phone/postcode) are generated at runtime via utils/helpers.js.",
+  "billing": {
+    "firstName": "QA",
+    "lastName": "Automation",
+    "address": "Dam 1",
+    "city": "Amsterdam"
+  },
+  "sandboxCard": {
+    "number": "4242 4242 4242 4242",
+    "expiry": "12/30",
+    "cvc": "123",
+    "name": "QA Automation"
+  }
+}

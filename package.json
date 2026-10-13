@@ -1,0 +1,31 @@
+{
+  "name": "korla-automation-suit",
+  "version": "1.0.0",
+  "description": "End-to-End QA Testing Framework (Manual & Automated) for Korla.nl - Playwright Page Object Model (POM) in JavaScript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test tests/smoke.spec.js",
+    "test:bva": "playwright test tests/booking-bva.spec.js",
+    "test:payment": "playwright test tests/payment.spec.js",
+    "test:mobile": "playwright test --project='Mobile Chrome' --project='Mobile Safari'",
+    "test:desktop": "playwright test --project='Desktop Chrome'",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "korla",
+    "taxi",
+    "playwright",
+    "pom",
+    "e2e",
+    "qa",
+    "test-automation"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^25.0.0"
+  }
+}

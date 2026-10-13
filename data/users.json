@@ -1,0 +1,10 @@
+{
+  "_comment": "Static, NON-sensitive user fixtures for the Korla QA suite. Real/sensitive credentials (e.g. a registered account) come from environment variables (.env) — see data/testData.js -> registeredUser.",
+  "invalidLogin": {
+    "username": "korla.invalid.user@example.com",
+    "password": "wrong-password"
+  },
+  "tracking": {
+    "email": "korla.tracking@example.com"
+  }
+}
